@@ -1,0 +1,4 @@
+services:
+#    kisschoice_store.example:
+#        class: Kisschoice\StoreBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

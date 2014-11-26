@@ -1,0 +1,4 @@
+services:
+#    headoo_shopping.example:
+#        class: Headoo\ShoppingBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

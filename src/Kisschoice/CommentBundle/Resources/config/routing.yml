@@ -1,0 +1,3 @@
+kisschoice_comment_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: KisschoiceCommentBundle:Default:index }

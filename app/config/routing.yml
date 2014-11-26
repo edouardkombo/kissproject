@@ -1,0 +1,28 @@
+headoo_shopping:
+    resource: "@HeadooShoppingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+creativ_coders_product:
+    resource: "@CreativCodersProductBundle/Resources/config/routing.yml"
+    prefix:   /
+
+kisschoice_store:
+    resource: "@KisschoiceStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+kisschoice_user:
+    resource: "@KisschoiceUserBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+    
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"
+    
+fos_comment_api:
+    type: rest
+    resource: "@FOSCommentBundle/Resources/config/routing.yml"
+    prefix: /api
+    defaults: { _format: html }    
+
